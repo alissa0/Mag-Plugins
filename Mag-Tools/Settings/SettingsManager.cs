@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Globalization;
@@ -358,11 +358,14 @@ namespace MagTools.Settings
 
 			public static readonly Setting<bool> LogOutOnDeath = new Setting<bool>("Misc/LogOutOnDeath", "Log Out on Death");
 
+			public static readonly Setting<bool> UseLumKitsIfAvailable = new Setting<bool>("Misc/UseLumKitsIfAvailable", "Uses light infused kits if available.", true);
+
 			public static readonly Setting<bool> DebuggingEnabled = new Setting<bool>("Misc/DebuggingEnabled", "Debugging Enabled", true);
 
 			public static readonly Setting<bool> VerboseDebuggingEnabled = new Setting<bool>("Misc/VerboseDebuggingEnabled", "Verbose Debugging Enabled");
 
 			public static readonly Setting<int> OutputTargetWindow = new Setting<int>("Misc/OutputTargetWindow", "Output Window", 1);
+
 
 			public static Collection<Client.WindowPosition> WindowPositions
 			{

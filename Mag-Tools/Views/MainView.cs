@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 
 using Mag.Shared;
@@ -397,6 +397,7 @@ namespace MagTools.Views
 				AddOption(OptionList, Settings.SettingsManager.Misc.OpenMainPackOnLogin);
 				AddOption(OptionList, Settings.SettingsManager.Misc.MaximizeChatOnLogin);
 				AddOption(OptionList, Settings.SettingsManager.Misc.LogOutOnDeath);
+				AddOption(OptionList, Settings.SettingsManager.Misc.UseLumKitsIfAvailable);
 				AddOption(OptionList, Settings.SettingsManager.Misc.DebuggingEnabled);
 				AddOption(OptionList, Settings.SettingsManager.Misc.VerboseDebuggingEnabled);
 
